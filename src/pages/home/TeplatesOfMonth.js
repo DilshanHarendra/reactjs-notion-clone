@@ -6,7 +6,7 @@ function TemplateOfMonth(props){
 
         <div className="w-full">
             <div className="w-full h-96 mt-8">
-                <img src="/img/img1.png" alt="img1" className="w-full h-full object-cover"/>
+                <img src="/reactjs-notion-clone/img/img1.png" alt="img1" className="w-full h-full object-cover"/>
             </div>
             <div className="mt-5 flex items-center">
                 <img className="w-10 h-10 rounded-full object-cover" src="https://www.notion.so/cdn-cgi/image/format=auto,width=1080,quality=100/https://images.ctfassets.net/spoqsaf9291f/151Y0x11VkR5DRQxBS4OM7/728fc1168e1bc70da1c18696e8a4e683/Pitch-Logo2.png" alt=""/>

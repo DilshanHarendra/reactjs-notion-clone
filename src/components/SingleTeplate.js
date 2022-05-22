@@ -6,7 +6,7 @@ function SingleTemplate(props){
 
         <div className="w-full pb-8">
             <div className="w-full  h-96 mt-8">
-                <img src="/img/img2.png" alt="img2" className="w-full h-full object-cover"/>
+                <img src="/reactjs-notion-clone/img/img2.png" alt="img2" className="w-full h-full object-cover"/>
             </div>
             <div className="mt-5 flex items-center justify-between w-full">
                 <div className="">
