@@ -2,13 +2,13 @@ import React from 'react'
 import {Link} from "react-router-dom";
 
 function Sidebar(){
-    return(<div className="w-full overflow-y-auto border-r border-r-2 border-gray-200" style={{maxHeight:'calc(100vh - 8rem)'}}>
+    return(<div className="w-full overflow-y-auto border-r border-r-2 border-gray-200 bg-white pb-8 pl-4">
         <form action="">
             <div style={{width:'95%'}} className=" relative ">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute top-2 left-2 " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute top-2 left-2 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-                <input placeholder="Search" className=" w-full h-full form-input placeholder:text-gray-500 shadow border-none outline-none focus:border-none focus:outline-none  pl-8 py-2" type="search"/>
+                <input placeholder="Search" className=" w-full  form-input placeholder:text-gray-500  border border-gray-200 outline-none focus:border-none focus:outline-none  pl-8 py-2" type="text"/>
             </div>
 
         </form>
