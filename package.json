@@ -16,11 +16,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "NODE_ENV=production npm run css:build && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "css:watch": "npx tailwindcss -i ./src/assets/tailwind.css -o ./src/assets/main.css --watch",
-    "css:build": "npx tailwindcss -i ./src/assets/tailwind.css -o ./src/assets/main.css --minify"
+    "css:build": "NODE_ENV=production npx tailwindcss -i ./src/assets/tailwind.css -o ./src/assets/main.css --minify"
   },
   "eslintConfig": {
     "extends": [
