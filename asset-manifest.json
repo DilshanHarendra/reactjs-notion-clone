@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactjs-notion-clone/static/css/main.4b6c7233.css",
+    "main.js": "/reactjs-notion-clone/static/js/main.16b9030d.js",
+    "static/js/787.27b170a4.chunk.js": "/reactjs-notion-clone/static/js/787.27b170a4.chunk.js",
+    "index.html": "/reactjs-notion-clone/index.html",
+    "main.4b6c7233.css.map": "/reactjs-notion-clone/static/css/main.4b6c7233.css.map",
+    "main.16b9030d.js.map": "/reactjs-notion-clone/static/js/main.16b9030d.js.map",
+    "787.27b170a4.chunk.js.map": "/reactjs-notion-clone/static/js/787.27b170a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b6c7233.css",
+    "static/js/main.16b9030d.js"
+  ]
+}
