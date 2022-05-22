@@ -2,7 +2,7 @@ import React from 'react'
 import Header from "./defaultLayout/Header";
 import Sidebar from "./defaultLayout/Sidebar";
 import Footer from "./defaultLayout/Footer";
-
+import {Outlet } from "react-router-dom";
 
 function DefaultLayout(props){
 
@@ -17,7 +17,7 @@ function DefaultLayout(props){
                <Sidebar/>
            </div>
            <div  className="w-full md:w-4/5">
-               {props.children}
+               <Outlet/>
           </div>
        </div>
 

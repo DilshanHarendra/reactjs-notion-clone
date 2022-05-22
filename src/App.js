@@ -4,11 +4,12 @@ import DefaultLayout from "./layout/DefaultLayout";
 import {Routes, Route, } from "react-router-dom";
 import Home from "./pages/home/Home";
 function App() {
-  return (<DefaultLayout>
-          <Routes>
-              <Route path="/" element={<Home />} />
-          </Routes>
-           </DefaultLayout>
+  return (<Routes>
+          <Route path="/" element={<DefaultLayout />}>
+              <Route index element={<Home />} />
+          </Route>
+      </Routes>
+
 
   );
 }
